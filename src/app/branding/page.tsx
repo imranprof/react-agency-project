@@ -17,8 +17,8 @@ const Branding = () => {
   const works = getAllPages("/works/branding");
   const work = getMainPage("/works/branding/_main.mdx");
   const funFact = getMainPage("/funFact/brandingfunFact.mdx");
-  const service = getMainPage("services/branding/_main.mdx");
-  const services = getAllPages("services/branding");
+  const service = getMainPage("/services/branding/_main.mdx");
+  const services = getAllPages("/services/branding");
   const process = getMainPage("/process/branding/_main.mdx");
   const image = getMainPage("/image/brandingImage.mdx");
   const testimonial = getMainPage("/testimonial/branding/_main.mdx");
