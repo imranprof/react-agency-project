@@ -81,6 +81,10 @@ body {
       @apply relative inline-block p-0 transition-transform duration-500;
       transform-origin: 50% 0;
       transform-style: preserve-3d;
+    
+      /* Add vendor prefixes */
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
 
       &:before {
         @apply absolute top-full left-0 w-full h-full text-center;
@@ -89,6 +93,10 @@ body {
         transition: color 0.5s;
         transform: rotateX(-90deg);
         transform-origin: 50% 0;
+
+      /* Add vendor prefixes */
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
       }
     }
   }
