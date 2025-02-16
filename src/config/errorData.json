@@ -1,0 +1,15 @@
+{
+  "data": {
+    "image": {
+      "dark": "/assets/imgs/shape/img-s-87.webp",
+      "light": "/assets/imgs/shape/img-s-87-light.webp"
+    },
+    "title": "Ooop! Error page!",
+    "description": "The page you are looking for doesn't exist or has been moved.",
+    "btn_text": "Back to Home",
+    "shape": {
+      "dark": "/assets/imgs/shape/img-s-88.webp",
+      "light": "/assets/imgs/shape/img-s-88-light.webp"
+    }
+  }
+}
